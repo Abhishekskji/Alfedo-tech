@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,#0a0a0a, #3a44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.container{
+    border: 2px solid rgb(46, 44, 44);
+    width: 500px;
+    border-radius: 19px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(143, 145, 149, 0.5);
+}
+.row input{
+    width: 305px;
+    margin: 0px;
+    padding: 8px 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(173, 210, 166, 0.5);
+    font-size: 23px;
+}
+.row{
+    margin: 8px 0 ;
+}
+.mx-auto{
+   margin: auto;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 5px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: none;
+    cursor: pointer;
+}
+button:hover{
+    border-style:groove ;
+    
+    
+    border-radius: 15px;
+}
