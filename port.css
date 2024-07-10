@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(94, 97, 178);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(57, 59, 121);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 1.04rem;
+}
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+}
+.firstSection div {
+    width: 35%;
+}
+.leftSection {
+    font-size: 3rem;
+}
+.button{
+    display: flex;
+    
+}
+.btn{
+    font-size: 1rem;
+    padding: 5px;
+    background-color: rgb(128, 135, 145);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
+.btn:hover{
+    background-color: orange;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 17px;
+    box-shadow: 2px 2px 2px gray;
+}
+.leftSection .button{
+    padding: 20px;
+    margin: 20px;
+}
+.rightSection img{
+       width: 100%;  
+}
+.purple{
+    color: blueviolet;
+}
+#element{
+    color: rgb(77, 13, 137);
+}
+.secondSection{
+    height: 800px;
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.9rem; 
+
+}
+.box{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin: 90px 0px;
+    display: flex;
+}
+.secondSection .vertical{
+    background-color: white;
+    height: 70px;
+    width: 1px;
+    margin: 0 150px;
+}
+.image-top{
+    width: 150px;
+    position: relative;
+    top: -85px; 
+    left: -75px;
+}
+.vertical-tital{
+    position: relative;
+    top: 80px;
+    width: 180px;
+    
+}
+.vertical-desc{
+    position: relative;
+    top: 8px;
+    font-size: 15px;
+    width: 150px;
+    color: gray;
+}
+.image-java{
+    height: 90px;
+    position: relative;
+    top: -90px;
+    right: 27px;
+}
+.image-boot{
+    height: 90px;
+    position: relative;
+    top: -90px;
+    right: 50px;
+
+}
+.image-js{
+    height: 200px;
+    position: relative;
+    top: -180px;
+    right: 150px;
+}
+.js{
+    position: relative;
+    top: -50px;
+}
+footer{
+    background-color: rgba(65, 67, 114, 0.799);       
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer li{
+    list-style: none;
+}
+.footer-first{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+.last-container{
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.address{
+    padding: 5px;
+margin-top: -30px;
+}
+.address ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 20px;
+    margin-left: -5px;
+}
+.address i{
+    color: white;
+    padding-right: 20px;
+}
+.last-container{ 
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.address{
+    padding: 5px;
+margin-top: -30px;
+}
+.address ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 20px;
+    margin-left: -5px;
+}
+.address a{
+    border: 2px solid green;
+
+}
+.icon a i{
+    color: white;
+    padding: 20px;
+}
+.copy{
+    text-align: center;
+    font-size: 20px;
+    padding: 12px 0;
+}
